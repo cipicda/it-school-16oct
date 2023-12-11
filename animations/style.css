@@ -1,0 +1,45 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  animation-name: switch-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes switch-color {
+  0% {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    transform: rotate(20deg);
+  }
+
+  25% {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    transform: rotate(40deg);
+  }
+
+  50% {
+    background-color: pink;
+    width: 400px;
+    height: 300px;
+    transform: rotate(60deg);
+  }
+
+  75% {
+    background-color: magenta;
+    width: 500px;
+    height: 400px;
+    transform: rotate(120deg);
+  }
+
+  100% {
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+    transform: rotate(1800deg);
+  }
+}

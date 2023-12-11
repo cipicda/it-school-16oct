@@ -1,0 +1,33 @@
+#hero {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.logo {
+  width: 120px;
+  height: 80px;
+  display: flex;
+  align-items: baseline;
+}
+
+.titlu-principal {
+  color: black;
+  font-size: 50px;
+  margin-right: 3rem;
+  font-weight: bold;
+}
+
+.bar {
+  background-color: white;
+  font-size: 32px;
+}
+
+.login-button {
+  width: 10rem;
+  height: 45px;
+  background-color: greenyellow;
+  font-size: 2rem;
+}

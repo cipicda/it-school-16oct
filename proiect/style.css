@@ -1,0 +1,138 @@
+html {
+  background-color: #1a1d23;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  padding: 10rem;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  border-radius: 3rem;
+}
+
+.box-imagine {
+  width: 60%;
+  height: 50%;
+}
+
+.imagine {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titlu-principal {
+  text-align: center;
+  color: #000000;
+  font-size: 350%;
+}
+
+.description-titlu {
+  color: black;
+  font-size: 220%;
+  text-align: center;
+}
+
+.boxamd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  margin: 12.5rem;
+}
+
+.amdimg {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  margin: auto;
+}
+
+.description-2 {
+  background-color: #ffffff;
+  object-fit: cover;
+  font-size: 200%;
+}
+
+.amdpc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box-3 {
+  margin-top: 50px;
+  width: 30%;
+  height: auto;
+  padding: 2rem;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.amdpc {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+
+.description-3 {
+  background-color: white;
+  object-fit: cover;
+  font-size: 200%;
+}
+
+.box-2 {
+  padding: 2rem;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.description-2 {
+  background-color: #ffffff;
+  object-fit: cover;
+  font-size: 200%;
+}
+
+.amdgraphic {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+
+.intelgraphic {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
+  margin: 12.5rem;
+  border-radius: 3rem;
+  flex-direction: column;
+}
+
+.titlu {
+  text-align: center;
+  font-size: 2rem;
+  color: #20788e;
+}
+
+.color12 {
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  color: #20788e;
+  flex-direction: column;
+}

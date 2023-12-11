@@ -1,0 +1,20 @@
+html {
+  background-color: white;
+}
+
+.titlu-poza {
+  display: flex;
+  color: #f03009;
+}
+
+.poza1 {
+  display: flex;
+  justify-content: center;
+  margin: 10rem 10rem;
+}
+
+.poza2 {
+  display: flex;
+  justify-content: center;
+  margin: 10rem 10rem;
+}
